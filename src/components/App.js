@@ -1,5 +1,6 @@
 import "./App.css";
-import JointLayer from ".//JointLayer/JointLayer";
+
+import Map from "./Map/Map";
 
 const App = () => {
   return (
@@ -7,7 +8,10 @@ const App = () => {
       <header className="app-header"></header>
 
       <h1>Functional Component</h1>
-      <JointLayer />
+
+      <div className="maps">
+        <Map />
+      </div>
     </div>
   );
 };

@@ -1,0 +1,38 @@
+#map {
+  position: relative;
+  top: 0px;
+  left: 0;
+  height: 920px;
+  width: 1080px;
+}
+.leaflet-container {
+  font-size: 14px;
+}
+
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 400;
+}
+.leaflet-top.leaflet-right {
+  display: flex;
+  flex-direction: column;
+}
+.leaflet-right .leaflet-control {
+  margin-right: 8px;
+  margin-left: auto;
+}
+.leaflet-top .leaflet-control {
+  margin-top: 8px;
+}
+.leaflet-bottom .leaflet-control {
+  margin-bottom: 8px;
+}
+.leaflet-left .leaflet-control {
+  margin-left: 8px;
+}
+
+.main-map {
+  position: absolute;
+  top: 70px;
+  height: calc(100% - 70px);
+}
